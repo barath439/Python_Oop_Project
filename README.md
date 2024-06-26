@@ -1,60 +1,62 @@
-# Python_Oop_Project
+###### Python_Oop_Project
 
-Features
-User Registration and Login:
+## NLP Application:
 
+This project is a simple NLP (Natural Language Processing) application built using the google.generativeai library. It allows users to perform sentiment analysis, translation, and detection. The application includes a user registration and login system to manage access.
+
+
+## Features
+1.User Registration and Login:
 New users can register with their name, email, and password.
 Registered users can log in to access the application's features.
-NLP Functionalities:
 
+2.NLP Functionalities:
 Sentiment Analysis: Analyze the sentiment of a given text.
-Language Translation: Translate text to Tamil.
+Language Translation:Translate text to Tamil.
 Language Detection: Detect the language of a given text.
-Setup
-Clone the Repository:
 
-sh
-Copy code
+## Setup
+1.Clone the Repository:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-Install Dependencies:
-Ensure you have the google-generativeai library installed. If not, you can install it using pip:
 
-sh
-Copy code
+2.Install Dependencies:
+Ensure you have the google-generativeai library installed. If not, you can install it using pip:
 pip install google-generativeai
-Add Your API Key:
+
+3.Add Your API Key:
 Replace "#Add your API Key" in the code with your actual API key from Google Generative AI.
 
-Usage
+## Usage
 Run the application:
-
-sh
-Copy code
 python your_script_name.py
 You will be prompted with a menu to register, log in, or exit. After logging in, you can choose between sentiment analysis, language translation, or language detection.
 
-Code Overview
-NLPModel Class
+## Code Overview
+1.NLPModel Class
 Configures the Google Generative AI model with the provided API key.
 Initializes the gemini-pro model.
-NLPApp Class
+
+## NLPApp Class
 Inherits from NLPModel and provides the main functionality:
 
-User Management:
+1.User Management:
 __register(): Handles user registration.
 __login(): Handles user login.
-Menu Navigation:
+2.Menu Navigation:
 __first_menu(): Displays the initial menu.
 __second_menu(): Displays the secondary menu after login.
-NLP Functionalities:
+3.NLP Functionalities:
 __sentiment_analysis(): Performs sentiment analysis on user input.
 __language_translation(): Translates user input to Tamil.
 __language_detection(): Detects the language of user input.
-Example Usage
-sh
-Copy code
+
+## Example Usage
 Hi! how would you like to proceed?
+
+1. Not a member? Register
+2. Already a member? Login
+3. Do not want to do anything? Exit
 
 1. Not a member? Register
 2. Already a member? Login
