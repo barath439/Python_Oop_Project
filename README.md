@@ -57,8 +57,6 @@ Hi! how would you like to proceed?
 1. Not a member? Register
 2. Already a member? Login
 3. Do not want to do anything? Exit
-
-1. Not a member? Register
 2. Already a member? Login
 3. Do not want to do anything? Exit
 Upon selecting an option, you can proceed with registration, login, or exit. After logging in, you can access various NLP functionalities.
